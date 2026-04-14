@@ -17,12 +17,11 @@ opt.mouse:append("a")
 opt.splitright = true
 opt.splitbelow = true
 -- 关闭注释延续
-opt.formatoptions:remove({"r", "o"}) 
+opt.formatoptions:remove({ "r", "o" })
 -- 搜索
 opt.ignorecase = true
 opt.smartcase = true
 -- 外观
 opt.termguicolors = true
 -- opt.signcolumn = "yes"
-
-
+opt.modifiable = true
